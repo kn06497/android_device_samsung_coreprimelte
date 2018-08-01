@@ -4,10 +4,10 @@
 LOCAL_PATH := device/samsung/fortunave3g
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := fortunave3g,SM-G530H,fortuna3g,samsung_sm_g530h
+TARGET_OTA_ASSERT_DEVICE := coreprimelteub,SM-G360M,coreprimelte,samsung_sm_g360m
 
 # Kernel
-TARGET_KERNEL_CONFIG := msm8916_fortunave3g_eur_defconfig
+TARGET_KERNEL_CONFIG := lineage_primelte_defconfig
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE        := true

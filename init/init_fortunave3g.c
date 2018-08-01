@@ -49,8 +49,8 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
     if (!rc || !ISMATCH(platform, ANDROID_TARGET))
         return;
 	
-    property_set("ro.product.model", "SM-G530H");
-    property_set("ro.product.device", "fortunave3g");
+    property_set("ro.product.model", "SM-G360M");
+    property_set("ro.product.device", "coreprimelte");
 	property_set("persist.radio.multisim.config", "dsds");
 	property_set("ro.multisim.simslotcount", "2");
 }
