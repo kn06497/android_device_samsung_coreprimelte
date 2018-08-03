@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fortunave3g)
+ifeq ($(TARGET_DEVICE),coreprimelte)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
